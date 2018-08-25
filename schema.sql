@@ -1,10 +1,10 @@
-DROP DATABASE IF EXISTS test;
+DROP DATABASE IF EXISTS schedules;
 
-CREATE DATABASE test;
+CREATE DATABASE schedules;
 
-USE test;
+USE schedules;
 
-CREATE TABLE items (
+CREATE TABLE schedules (
   id int NOT NULL AUTO_INCREMENT,
   quantity integer NOT NULL,
   description varchar(50) NOT NULL,
